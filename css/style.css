@@ -1,19 +1,63 @@
-.container{
-  width: 900px;
-
-}
-
-.clearfix{
-  display: table;
+/* line 1, ../scss/style.scss */
+.clearfix::after {
   content: "";
+  display: table;
   clear: both;
 }
 
-nav li{
-  display: inline-block;
-  text-decoration: none;
+/* line 7, ../scss/style.scss */
+.container {
+  width: 940px;
+  margin: 0 auto;
 }
 
-.user-block{
+/* line 13, ../scss/style.scss */
+nav li {
+  display: inline-block;
+}
+/* line 17, ../scss/style.scss */
+nav div {
   float: right;
+}
+
+/* line 24, ../scss/style.scss */
+main .index-logo {
+  text-align: center;
+}
+/* line 27, ../scss/style.scss */
+main .future-item {
+  width: 283px;
+  display: inline-block;
+}
+/* line 32, ../scss/style.scss */
+main .index-content .index-content-left {
+  float: left;
+  width: 350px;
+  min-height: 314px;
+}
+/* line 37, ../scss/style.scss */
+main .index-content .index-content-left .news-perview {
+  margin: 0;
+  padding: 0;
+}
+/* line 42, ../scss/style.scss */
+main .index-content .index-content-right {
+  float: right;
+  width: 300px;
+  min-height: 314px;
+}
+
+/* line 53, ../scss/style.scss */
+footer section {
+  float: left;
+  width: 307px;
+}
+/* line 57, ../scss/style.scss */
+footer .footer-social {
+  width: 141px;
+}
+/* line 60, ../scss/style.scss */
+footer .footer-copyright {
+  float: right;
+  width: 141px;
 }

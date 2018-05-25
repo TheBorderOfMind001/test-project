@@ -1,0 +1,64 @@
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container{
+  width: 940px;
+  margin: 0 auto;
+}
+
+nav{
+  li{
+    display: inline-block;
+  }
+
+  div{
+    float: right;
+  }
+}
+
+main{
+
+  .index-logo{
+    text-align: center;
+  }
+  .future-item{
+    width: 283px;
+    display: inline-block;
+  }
+  .index-content{
+    .index-content-left{
+      float: left;
+      width: 350px;
+      min-height: 314px;
+
+      .news-perview{
+        margin: 0;
+        padding: 0;
+      }
+    }
+    .index-content-right{
+      float: right;
+      width: 300px;
+      min-height: 314px;
+
+    }
+
+  }
+}
+
+footer{
+  section{
+    float: left;
+    width: 307px;
+  }
+  .footer-social{
+    width: 141px;
+  }
+  .footer-copyright{
+    float: right;
+    width: 141px;
+  }
+}
