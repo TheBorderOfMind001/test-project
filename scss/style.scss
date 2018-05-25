@@ -2,11 +2,21 @@
   font-family: "PT Sans Narrow";
   src:
     local("PT Sans Narrow"),
+
+    //прописать свой абсолютный путь.
     url('/home/sunling/Документы/github/test-project/fonts/PT_Sans-Narrow-Web-Bold.ttf') format("truetype");
+
+}
+
+a{
+  text-decoration: none;
 }
 
 html{
   font-family: "PT Sans Narrow";
+  font-size: 14px;
+  font-weight: 400;
+
 }
 
 .clearfix::after{
@@ -21,6 +31,9 @@ html{
 }
 
 nav{
+  font-size: 16px;
+
+
   li{
     display: inline-block;
   }
@@ -38,8 +51,18 @@ main{
   .future-item{
     width: 283px;
     display: inline-block;
+
+    .future-name{
+      font-size: 30px;
+    }
   }
+
+
   .index-content{
+    .index-content-title{
+      font-size: 30px;
+    }
+
     .index-content-left{
       float: left;
       width: 350px;
@@ -54,6 +77,8 @@ main{
       float: right;
       width: 300px;
       min-height: 314px;
+
+
 
     }
 
