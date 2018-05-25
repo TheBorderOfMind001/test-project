@@ -1,3 +1,14 @@
+@font-face{
+  font-family: "PT Sans Narrow";
+  src:
+    local("PT Sans Narrow"),
+    url('/home/sunling/Документы/github/test-project/fonts/PT_Sans-Narrow-Web-Bold.ttf') format("truetype");
+}
+
+html{
+  font-family: "PT Sans Narrow";
+}
+
 .clearfix::after{
   content: "";
   display: table;
