@@ -10,13 +10,18 @@
 
 a{
   text-decoration: none;
+  color: white;
 }
 
 html{
   font-family: "PT Sans Narrow";
   font-size: 14px;
   font-weight: 400;
+  color: white;
 
+  //прописать свой абсолютный путь.
+  background-image: url('/home/sunling/Документы/github/test-project/img/tint.png');
+  background-position: center, center;
 }
 
 .clearfix::after{
