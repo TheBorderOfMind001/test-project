@@ -63,6 +63,7 @@ header nav li {
 header nav div {
   width: 63px;
   float: right;
+  text-align: right;
 }
 
 main .index-logo {
