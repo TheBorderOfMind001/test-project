@@ -8,12 +8,29 @@
 
 }
 
+.btn{
+  text-align: center;
+
+  margin-top: 22px;
+  margin-bottom: 22px;
+
+  padding-top: 13px;
+  padding-bottom: 13px;
+
+  background-color: black;
+  width: 140px;
+  display: block;
+}
+
 a{
   text-decoration: none;
   color: white;
 }
 
-html{
+html,
+body{
+  margin: 0;
+  padding: 0;
   font-family: "PT Sans Narrow";
   font-size: 14px;
   font-weight: 400;
@@ -35,16 +52,34 @@ html{
   margin: 0 auto;
 }
 
-nav{
-  font-size: 16px;
+header{
+  background-color: black;
+
+  nav{
+    font-size: 16px;
 
 
-  li{
-    display: inline-block;
-  }
+    padding-top: 22px;
+    padding-bottom: 22px;
 
-  div{
-    float: right;
+    ul{
+      margin: 0;
+      padding: 0;
+      width: 600px;
+    }
+
+
+    li{
+      float: left;
+      margin-right: 40px;
+      display: block;
+
+    }
+
+    div{
+      width: 63px;
+      float: right;
+    }
   }
 }
 
