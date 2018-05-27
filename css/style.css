@@ -3,14 +3,26 @@
   font-family: "PT Sans Narrow";
   src: local("PT Sans Narrow"), url("/home/sunling/Документы/github/test-project/fonts/PT_Sans-Narrow-Web-Bold.ttf") format("truetype");
 }
-/* line 11, ../scss/style.scss */
+.btn {
+  text-align: center;
+  margin-top: 22px;
+  margin-bottom: 22px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  background-color: black;
+  width: 140px;
+  display: block;
+}
+
 a {
   text-decoration: none;
   color: white;
 }
 
-/* line 16, ../scss/style.scss */
-html {
+html,
+body {
+  margin: 0;
+  padding: 0;
   font-family: "PT Sans Narrow";
   font-size: 14px;
   font-weight: 400;
@@ -19,77 +31,76 @@ html {
   background-position: center, center;
 }
 
-/* line 27, ../scss/style.scss */
 .clearfix::after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* line 33, ../scss/style.scss */
 .container {
   width: 940px;
   margin: 0 auto;
 }
 
-/* line 38, ../scss/style.scss */
-nav {
+header {
+  background-color: black;
+}
+header nav {
   font-size: 16px;
+  padding-top: 22px;
+  padding-bottom: 22px;
 }
-/* line 42, ../scss/style.scss */
-nav li {
-  display: inline-block;
+header nav ul {
+  margin: 0;
+  padding: 0;
+  width: 600px;
 }
-/* line 46, ../scss/style.scss */
-nav div {
+header nav li {
+  float: left;
+  margin-right: 40px;
+  display: block;
+}
+header nav div {
+  width: 63px;
   float: right;
+  text-align: right;
 }
 
-/* line 53, ../scss/style.scss */
 main .index-logo {
   text-align: center;
 }
-/* line 56, ../scss/style.scss */
 main .future-item {
   width: 283px;
   display: inline-block;
 }
-/* line 60, ../scss/style.scss */
 main .future-item .future-name {
   font-size: 30px;
 }
-/* line 67, ../scss/style.scss */
 main .index-content .index-content-title {
   font-size: 30px;
 }
-/* line 71, ../scss/style.scss */
 main .index-content .index-content-left {
   float: left;
   width: 350px;
   min-height: 314px;
 }
-/* line 76, ../scss/style.scss */
 main .index-content .index-content-left .news-perview {
   margin: 0;
   padding: 0;
 }
-/* line 81, ../scss/style.scss */
 main .index-content .index-content-right {
   float: right;
   width: 300px;
   min-height: 314px;
 }
 
-/* line 94, ../scss/style.scss */
 footer section {
   float: left;
   width: 307px;
 }
-/* line 98, ../scss/style.scss */
 footer .footer-social {
   width: 141px;
 }
-/* line 101, ../scss/style.scss */
 footer .footer-copyright {
   float: right;
   width: 141px;
